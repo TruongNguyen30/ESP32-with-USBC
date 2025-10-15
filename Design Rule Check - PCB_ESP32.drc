@@ -1,0 +1,87 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\ASUS\OneDrive\Desktop\HOC ALTIUM\ESP32_CUSTOM\PCB_ESP32.PcbDoc
+Date     : 10/13/2025
+Time     : 9:56:08 PM
+
+Processing Rule : Clearance Constraint (Gap=6mil) (WithinRoom('FTDI') or WithinRoom('USBC2') or WithinRoom('USBC1')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) (InDifferentialPairClass('DIFF90')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=11mil) (MaxHoleWidth=12mil) (PreferredHoleWidth=12mil) (MinWidth=22mil) (MaxWidth=24mil) (PreferedWidth=24mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=8.1mil) (Prefered=8mil)  and Width Constraints (Min=5.1mil) (Max=6.23mil) (Prefered=6.03mil) (InDifferentialPairClass('DIFF90'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=20mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=3.15mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=6mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=5.906mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Room USBC2 (Bounding Region = (7907mil, 10777mil, 7983mil, 11064mil) (False)
+Rule Violations :0
+
+Processing Rule : Room USBC1 (Bounding Region = (7912mil, 11333mil, 7983mil, 11624mil) (False)
+Rule Violations :0
+
+Processing Rule : Room FTDI (Bounding Region = (8312mil, 11356mil, 8512mil, 11573mil) (False)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (All),(All) 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component R24-JUMPER (1940mil,524mil) on L1 And SMT Small Component R26-JUMPER (1976mil,524mil) on L1 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component R25-JUMPER (1940.173mil,444mil) on L1 And SMT Small Component R27-JUMPER (1976mil,444mil) on L1 
+Rule Violations :2
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (InComponent('R1')),(InComponent('R2')) 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component R1-JUMPER (715mil,505mil) on L1 And SMT Small Component R2-JUMPER (750mil,505mil) on L1 
+Rule Violations :1
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 3
+Waived Violations : 0
+Time Elapsed        : 00:00:00
